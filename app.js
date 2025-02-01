@@ -42,7 +42,7 @@ function verificarChute(){
 
 function gerarNumeroAleatorio(){
      let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
-     let quantidadeNumeroEscolhido = listaNumerosSorteados.length
+     let quantidadeNumeroEscolhido = listaNumerosSorteados.length;
      if (quantidadeNumeroEscolhido==numeroLimite){
         listaNumerosSorteados=[];
      }
@@ -52,8 +52,8 @@ function gerarNumeroAleatorio(){
     }
     else{
         listaNumerosSorteados.push(numeroEscolhido);
-        console.log(listaNumerosSorteados)
-        return numeroEscolhido
+        console.log(listaNumerosSorteados);
+        return numeroEscolhido;
     }
 }
 
